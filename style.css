@@ -19,8 +19,9 @@ p{
   align-items: center;
 }
    .navCont{
+    display: flex;
     position: relative;
-    margin-top: 25px;
+    margin-top: 10px;
    }
    .profile{
    background: #ffffff;
@@ -30,14 +31,20 @@ p{
    }
    .profilespan{
     position: relative;
+    display: flex;
+    align-items: center;
+   }
+   .profieonline{
+    position: relative;
    }
    .online{
+
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #10fe85;
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 40px;
 
    }
@@ -50,34 +57,35 @@ p{
     margin-right: auto;
     margin-left: 24px;
    }
-    .nav-list{
+   .top-nav-list{
+    position: absolute;
+    right: 0;
+
+   }
+    /* .navlist{
     display: flex;
     margin-bottom: 0%;
    }
-   .top-nav-list{
-    position: absolute;
-    right: 25px;
-    top: 8px;
-   }
-    .nav-list li{
+   
+    .navlist li{
     display: inline;
   }
-    .nav-list a{
+    .navlist a{
     font-family:'Poppins';
     text-decoration: none;
     color: white;
-  }
-  .nav-item{
+  } */
+  .navitem{
     padding: 8px 24px;
     border-radius: 10px;
     background-color: transparent;
     border: 2px solid transparent;
     color: white;
   }
-  .nav-item:hover {
+  .navitem:hover {
     border: 2px solid #10fe85;
   }
-  .nav-item:active {
+  .navitem:active {
     border: 2px solid #10fe85;
   }
   .hi-icon{
@@ -100,7 +108,7 @@ p{
   bottom: 0px;
 }
 .img-profile{
-  width: 496px;
+  width: 400px;
   height: 658px;
   position: absolute;
   z-index: 2;
@@ -188,7 +196,7 @@ p{
 .skills{
   position: absolute;
   height: 320px;
-  width: 390px;
+  width: 40%;
 }
 .line1{
   border: 3px solid white;
@@ -350,6 +358,7 @@ p{
 .aboutmediv{
   position: absolute;
   right: 0px;
+  width: 50%;
 }
 .titleAboutMe{
   font-size: 128px;
@@ -971,14 +980,12 @@ p{
  padding: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
 
 .navbar,.nav2{
   margin: 1rem !important;
 }  
-.nav-list,.nav2{
-  font-size: x-small;
-}
+
 .text{
   margin: 0;
   width: 100%;
@@ -988,7 +995,7 @@ p{
   font-size: smaller;
 }
 .img-profile{
-  width: 396px;
+  width: 300px;
   height: 508px;
   right: -100px;
   bottom: 0;
@@ -1023,12 +1030,13 @@ p{
   right: 0px;
   top: 0px;
   text-align: center;
+  width: 100%;
 }
 .skills {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 222px;
+  width: 50%;
   margin-top: 300px;
 }
 .iconbg{
@@ -1044,6 +1052,12 @@ width: 150px;
 }
 .Experience{
   font-size: 50px;
+}
+.navCont{
+  align-items: center;
+}
+.navitem{
+  padding: 2px 6px;
 }
 .nav-item2{
   padding: 2px 6px;
@@ -1062,7 +1076,7 @@ width: 150px;
     width:100%;
   }
   .img-profile{
-    width: 220px;
+    width: 170px;
     height: 300px;
     right: 0px;
     bottom: 0;
@@ -1077,7 +1091,8 @@ width: 150px;
     top: 20px;
   }
   .skills {
-    top: 200px;
+    top: 150px;
+    width: 70%;
   }
   .skill1{
   height: 35px;
@@ -1088,17 +1103,14 @@ width: 150px;
   }
   .socialMedia{
     margin-top: 535px;
+    width: 100px;
   }
   .box{
     width: 300px;
     padding: 20px;
-
   }
   .futter p{
     font-size: x-small !important;
-  }
-  .nav-list{
-    padding: 0;
   }
   .icon svg, .iconbg1{
     width: 18px !important;
@@ -1138,6 +1150,28 @@ font-size:smaller;
 .lines {
  margin: 0;
  height: 15px;
+}
+.top-nav-list{
+  margin-top: 12px;
+  top: 50px;
+  z-index: 5;
+  font-size: smaller;
+}
+.navitem{
+  padding: 2px 6px;
+}
+.online{
+  top: 35px;
+}
+.titleAboutMe{
+font-size: 40px;
+}
+.aboutText2{
+  text-align: justify;
+}
+.nav2 {
+  padding: 0;
+  font-size: x-small;
 }
 }
 
@@ -1184,13 +1218,13 @@ font-size:smaller;
     padding: 5px 10px;
     font-size: 16px;
 }
-.nav-list{
+/* .navlist{
   margin: 10px;
-}
-.top-nav-list{
+} */
+/* .top-nav-list{
   position: absolute;
   top: 50px;
- }
+ } */
 
 }
 
