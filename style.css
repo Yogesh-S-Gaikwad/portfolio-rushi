@@ -1062,9 +1062,9 @@ width: 150px;
     width:100%;
   }
   .img-profile{
-    width: 320px;
-    height: 400px;
-    right: -100px;
+    width: 220px;
+    height: 300px;
+    right: 0px;
     bottom: 0;
   }
   .bg-circle{
@@ -1083,7 +1083,34 @@ width: 150px;
   height: 35px;
   font-size: 12px;
   }
+  .mainDiv{
+    height: 700px;
+  }
+  .socialMedia{
+    margin-top: 535px;
+  }
+  .box{
+    width: 300px;
+    padding: 20px;
 
+  }
+  .futter p{
+    font-size: x-small !important;
+  }
+  .nav-list{
+    padding: 0;
+  }
+  .icon svg, .iconbg1{
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .iconbg{
+    width: 100px;
+    }
+    .icons{
+      width: 100px;
+      margin: 0;
+    }
 }
 
 /* --------------about me page------------ */
