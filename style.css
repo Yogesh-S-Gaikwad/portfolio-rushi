@@ -18,17 +18,18 @@ p{
   justify-content: center;
   align-items: center;
 }
-.navbar{
-    background: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   .navCont{
+    position: relative;
+    margin-top: 25px;
    }
    .profile{
+   background: #ffffff;
     height: 48px;
     width: 51px;
-    background:white;
     border-radius: 50%;
+   }
+   .profilespan{
+    position: relative;
    }
    .online{
     width: 10px;
@@ -36,8 +37,9 @@ p{
     border-radius: 50%;
     background-color: #10fe85;
     position: absolute;
-    bottom: 10px;
+    top: 25px;
     left: 40px;
+
    }
    .name{
     font-family:'Poppins';
@@ -51,7 +53,11 @@ p{
     .nav-list{
     display: flex;
     margin-bottom: 0%;
-    /* margin-right: 119px; */
+   }
+   .top-nav-list{
+    position: absolute;
+    right: 25px;
+    top: 8px;
    }
     .nav-list li{
     display: inline;
@@ -90,7 +96,7 @@ p{
   background-color: #10fe85;
   -webkit-filter: blur(100px);
   position: absolute;
-  right: 50px;
+  right: 0px;
   bottom: 0px;
 }
 .img-profile{
@@ -975,7 +981,7 @@ p{
 }
 .text{
   margin: 0;
-  width: 70%;
+  width: 100%;
   margin-top: 50px;
 }
 .aboutMeText{
@@ -995,6 +1001,7 @@ p{
 .socialMedia{
   margin-left: 0;
   width: 150px;
+  z-index: 5;
 }
 .mainicon{
   width: 150px;
@@ -1030,9 +1037,7 @@ width: 150px;
 .icons{
   width: 150px;
 }
-.skill1{
-  font-size: 12px;
-}
+
 .aboutMe{
   margin-top: 20px;
   justify-content: center;
@@ -1052,6 +1057,34 @@ width: 150px;
 }
 
 } 
+@media screen and (max-width:376px) {
+  .text{
+    width:100%;
+  }
+  .img-profile{
+    width: 320px;
+    height: 400px;
+    right: -100px;
+    bottom: 0;
+  }
+  .bg-circle{
+    height: 200px;
+    width: 250px;
+  }
+  .gcircle1,.gcircle4,.gcircle5 {
+    width: 15px;
+    height: 15px;
+    top: 20px;
+  }
+  .skills {
+    top: 200px;
+  }
+  .skill1{
+  height: 35px;
+  font-size: 12px;
+  }
+
+}
 
 /* --------------about me page------------ */
 @media screen and (max-width:430px) {
@@ -1087,6 +1120,24 @@ width: 150px;
     width: 24px;
     height: 24px;
   }
+  .nav-item{
+    padding: 2px 5px;
+  }
+  .downloadCv {
+    margin-top: 350px;
+    margin-left: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.nav-list{
+  margin: 10px;
+}
+.top-nav-list{
+  position: absolute;
+  right: auto;
+  left: auto;
+  top: 50px;
+ }
 
 }
 
