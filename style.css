@@ -104,7 +104,7 @@ p{
   height: 658px;
   position: absolute;
   z-index: 2;
-  right: 0;
+  right: -50px;
   bottom: 0;
 }
 .text{
@@ -1071,7 +1071,7 @@ width: 150px;
     height: 200px;
     width: 200px;
   }
-  .gcircle1,.gcircle4,.gcircle5 {
+  .gcircle1,.gcircle4,.gcircle5,.toolgcircle1,.toolgcircle11,.toolgcircle12,.toolgcircle6,.toolgcircle4,.toolgcircle3{
     width: 15px;
     height: 15px;
     top: 20px;
@@ -1111,6 +1111,34 @@ width: 150px;
       width: 100px;
       margin: 0;
     }
+    .achievementDoc {
+      width: 200px !important;
+      height: 300px;
+  }
+  .Certificate {
+    width: 200px;
+    height: 300px;
+}
+.leftskill , .rightskill{
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+  justify-content: center;
+}
+.divicon svg{
+  width: 30px;
+  height: 30px;
+}
+.divicon{
+align-items: center;
+height: 30px;
+}
+.divicon p{
+font-size:smaller;
+}
+.lines {
+ margin: 0;
+ height: 15px;
+}
 }
 
 /* --------------about me page------------ */
@@ -1161,8 +1189,6 @@ width: 150px;
 }
 .top-nav-list{
   position: absolute;
-  right: auto;
-  left: auto;
   top: 50px;
  }
 
