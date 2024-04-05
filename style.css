@@ -1009,8 +1009,8 @@ p{
 .bg-circle{
   height: 300px;
   width: 300px;
-  right: -80px;
-  bottom: 0px;
+  right: 0px;
+  bottom: 50px;
 }
 
 .titleAboutMe{
@@ -1069,7 +1069,7 @@ width: 150px;
   }
   .bg-circle{
     height: 200px;
-    width: 250px;
+    width: 200px;
   }
   .gcircle1,.gcircle4,.gcircle5 {
     width: 15px;
