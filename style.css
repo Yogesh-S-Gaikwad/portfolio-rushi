@@ -1102,10 +1102,10 @@ width: 150px;
   font-size: 12px;
   }
   .mainDiv{
-    height: 700px;
+    height: 650px;
   }
   .socialMedia{
-    margin-top: 430px;
+    margin-top: 450px;
     width: 100px;
   }
   .box{
@@ -1119,17 +1119,17 @@ width: 150px;
     width: 18px !important;
     height: 18px !important;
   }
-  .iconbg{
+.iconbg{
     width: 100px;
-    }
-    .icons{
+}
+.icons{
       width: 100px;
       margin: 0;
-    }
-    .achievementDoc {
+}
+.achievementDoc {
       width: 200px !important;
       height: 300px;
-  }
+}
   .Certificate {
     width: 200px;
     height: 300px;
