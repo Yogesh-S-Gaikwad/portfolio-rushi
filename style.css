@@ -1072,9 +1072,11 @@ width: 150px;
 
 } 
 @media screen and (max-width:430px) {
-  .text{
-    width:100%;
-  }
+.text {
+    width: 90%;
+    font-size: 24px;
+    margin-top: 100px;
+}
   .img-profile{
     width: 170px;
     height: 300px;
