@@ -1135,14 +1135,14 @@ width: 150px;
     height: 450px;
 }
     .Certificate1:hover{
- 
+  position: relative;
   width: 300px;
   height: 450px;
   z-index: 10 !important;
   left: 0;
 }
 .Certificate2:hover{
- 
+ position: relative;
   width: 300px;
   height: 450px;
   z-index: 10 !important;
