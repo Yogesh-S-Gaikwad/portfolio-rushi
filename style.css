@@ -1154,9 +1154,9 @@ font-size: 12px;
   width: 300px;
   padding: 20px;
 }
-.futter a , p{
+.contact,.number.email{
   display: block;
-/*   font-size: x-small !important; */
+  font-size: x-small !important;
 }
 .icon svg, .iconbg1{
   width: 18px !important;
