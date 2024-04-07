@@ -1156,7 +1156,7 @@ font-size: 12px;
 }
 .futter a , p{
   display: block;
-  font-size: x-small !important;
+/*   font-size: x-small !important; */
 }
 .icon svg, .iconbg1{
   width: 18px !important;
