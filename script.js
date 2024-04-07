@@ -1,3 +1,5 @@
+
+
 // Function to start animations when elements are in view
 function startAnimationIfInView() {
   var green1 = document.getElementById('green1');
@@ -83,3 +85,4 @@ window.addEventListener('scroll', startAnimationIfInView);
       behavior: 'smooth'
     });
   });
+
